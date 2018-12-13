@@ -21,7 +21,6 @@ from skimage.exposure import rescale_intensity
 from skimage.transform import downscale_local_mean, pyramid_gaussian, pyramid_laplacian
 from skimage.feature import local_binary_pattern, greycomatrix, greycoprops
 
-os.chdir("/Users/iliailmer/Documents/CUNY/Studies/Fall2018_ComVis/Project/Codes_n_Data")
 plt.style.use('default')
 plt.set_cmap("gray")
 
